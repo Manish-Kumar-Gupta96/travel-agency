@@ -1,0 +1,64 @@
+.booking-search{
+
+margin-top:-70px;
+
+position:relative;
+
+z-index:5;
+
+}
+
+.booking-card{
+
+display:grid;
+
+grid-template-columns:repeat(5,1fr);
+
+gap:20px;
+
+background:#fff;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:var(--shadow-lg);
+
+}
+
+.booking-card input,
+.booking-card select{
+
+height:55px;
+
+padding:0 18px;
+
+border:1px solid var(--border);
+
+border-radius:10px;
+
+}
+
+.booking-card button{
+
+height:55px;
+
+background:var(--primary);
+
+color:#fff;
+
+border-radius:10px;
+
+font-weight:600;
+
+}
+
+@media(max-width:992px){
+
+.booking-card{
+
+grid-template-columns:1fr;
+
+}
+
+}

@@ -1,14 +1,29 @@
-import { BrowserRouter } from "react-router-dom";
-import { Toaster } from "react-hot-toast";
-import AppRoutes from "./routes/AppRoutes";
+import { Helmet } from "react-helmet-async";
+
+import AppRoutes from "@routes/AppRoutes";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Toaster position="top-right" reverseOrder={false} />
-      <AppRoutes />
-    </BrowserRouter>
-  );
+
+    return (
+
+        <>
+
+            <Helmet>
+
+                <title>
+
+                    Travel Agency
+
+                </title>
+
+            </Helmet>
+
+            <AppRoutes />
+
+        </>
+
+    );
+
 }
 
 export default App;

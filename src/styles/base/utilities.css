@@ -1,0 +1,170 @@
+/* ==========================================
+   DISPLAY
+========================================== */
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.grid {
+    display: grid;
+}
+
+/* ==========================================
+   FLEX
+========================================== */
+
+.items-center {
+    align-items: center;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* ==========================================
+   GAP
+========================================== */
+
+.gap-10 { gap:10px; }
+.gap-15 { gap:15px; }
+.gap-20 { gap:20px; }
+.gap-25 { gap:25px; }
+.gap-30 { gap:30px; }
+.gap-40 { gap:40px; }
+
+/* ==========================================
+   WIDTH
+========================================== */
+
+.w-100{
+    width:100%;
+}
+
+.h-100{
+    height:100%;
+}
+
+/* ==========================================
+   TEXT
+========================================== */
+
+.text-center{
+    text-align:center;
+}
+
+.text-left{
+    text-align:left;
+}
+
+.text-right{
+    text-align:right;
+}
+
+.fw-400{
+    font-weight:400;
+}
+
+.fw-500{
+    font-weight:500;
+}
+
+.fw-600{
+    font-weight:600;
+}
+
+.fw-700{
+    font-weight:700;
+}
+
+.fw-800{
+    font-weight:800;
+}
+
+/* ==========================================
+   MARGIN
+========================================== */
+
+.mt-20{margin-top:20px;}
+.mt-40{margin-top:40px;}
+.mt-60{margin-top:60px;}
+
+.mb-20{margin-bottom:20px;}
+.mb-40{margin-bottom:40px;}
+.mb-60{margin-bottom:60px;}
+
+/* ==========================================
+   PADDING
+========================================== */
+
+.py-80{
+    padding:80px 0;
+}
+
+.py-100{
+    padding:100px 0;
+}
+
+.p-20{
+    padding:20px;
+}
+
+.p-30{
+    padding:30px;
+}
+
+/* ==========================================
+   BORDER
+========================================== */
+
+.rounded{
+    border-radius:var(--radius-md);
+}
+
+.shadow{
+    box-shadow:var(--shadow-md);
+}
+
+.bg-white{
+    background:#fff;
+}
+
+.transition{
+    transition:var(--transition);
+}
