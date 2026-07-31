@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@utils/*": ["src/utils/*"],
+      "@services/*": ["src/services/*"],
+      "@assets/*": ["src/assets/*"],
+      "@styles/*": ["src/styles/*"],
+      "@admin/*": ["src/admin/*"]
+    },
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "target": "ES2024",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "dist", "legacy"]
+}

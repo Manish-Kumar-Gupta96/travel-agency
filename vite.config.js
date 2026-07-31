@@ -12,15 +12,15 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "@assets": path.resolve(__dirname, "./src/assets"),
       "@components": path.resolve(__dirname, "./src/components"),
-      "@layouts": path.resolve(__dirname, "./src/layouts"),
       "@pages": path.resolve(__dirname, "./src/pages"),
-      "@routes": path.resolve(__dirname, "./src/routes"),
+      "@layouts": path.resolve(__dirname, "./src/layouts"),
       "@hooks": path.resolve(__dirname, "./src/hooks"),
       "@utils": path.resolve(__dirname, "./src/utils"),
       "@services": path.resolve(__dirname, "./src/services"),
-      "@context": path.resolve(__dirname, "./src/context")
+      "@assets": path.resolve(__dirname, "./src/assets"),
+      "@styles": path.resolve(__dirname, "./src/styles"),
+      "@admin": path.resolve(__dirname, "./src/admin")
     }
   },
 
@@ -51,7 +51,9 @@ export default defineConfig({
           animation: ["framer-motion"],
           swiper: ["swiper"],
           icons: ["react-icons"],
-          axios: ["axios"]
+          axios: ["axios"],
+          charts: ["chart.js", "react-chartjs-2"],
+          tables: ["@tanstack/react-table"]
         }
       }
     }
