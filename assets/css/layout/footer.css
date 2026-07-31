@@ -1,0 +1,310 @@
+/*==================================================
+TRAVELNEST FOOTER STYLES
+Version: 1.0
+==================================================*/
+
+.footer-site {
+    background: var(--dark-bg);
+    color: rgba(255, 255, 255, 0.7);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-top {
+    padding: 100px 0 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1.2fr 1.3fr;
+    gap: 30px;
+}
+
+/*=========================================
+COLUMN 1: BRAND
+=========================================*/
+.footer-logo {
+    font-family: var(--heading-font);
+    font-size: var(--fs-28);
+    font-weight: var(--fw-800);
+    color: var(--white);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-logo span {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-logo i {
+    color: var(--primary);
+    transform: rotate(-15deg);
+}
+
+.footer-desc {
+    font-size: var(--fs-14);
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-socials {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+.footer-socials a:hover {
+    background: var(--primary);
+    color: var(--white);
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(14, 165, 233, 0.4);
+}
+
+/*=========================================
+COLUMN 2: LINKS
+=========================================*/
+.footer-title {
+    font-family: var(--heading-font);
+    color: var(--white);
+    font-size: var(--fs-18);
+    font-weight: var(--fw-700);
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background: var(--primary);
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: var(--fs-15);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.footer-links a i {
+    font-size: 10px;
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.footer-links a:hover {
+    color: var(--primary-light);
+    transform: translateX(5px);
+}
+
+.footer-links a:hover i {
+    color: var(--accent);
+}
+
+/*=========================================
+COLUMN 3: CONTACT
+=========================================*/
+.footer-contact-list li {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: var(--fs-15);
+}
+
+.footer-contact-list i {
+    color: var(--primary);
+    font-size: var(--fs-18);
+    margin-top: 3px;
+}
+
+.footer-contact-list span {
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    margin-bottom: 2px;
+}
+
+.footer-contact-list a {
+    color: rgba(255, 255, 255, 0.65);
+    transition: var(--transition);
+}
+
+.footer-contact-list a:hover {
+    color: var(--primary-light);
+}
+
+/*=========================================
+COLUMN 4: NEWSLETTER
+=========================================*/
+.footer-newsletter-text {
+    font-size: var(--fs-14);
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.newsletter-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.newsletter-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 20px 0 45px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-pill);
+    color: var(--white);
+    font-size: var(--fs-14);
+    transition: var(--transition);
+}
+
+.newsletter-input:focus {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--primary);
+    box-shadow: 0 0 10px rgba(14, 165, 233, 0.2);
+}
+
+.newsletter-input-wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    color: var(--primary);
+    font-size: 15px;
+}
+
+.btn-newsletter {
+    height: 52px;
+    border-radius: var(--radius-pill);
+    background: var(--gradient-primary);
+    color: var(--white);
+    font-weight: 600;
+    font-size: var(--fs-14);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.btn-newsletter:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/*=========================================
+FOOTER BOTTOM
+=========================================*/
+.footer-bottom {
+    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: var(--fs-14);
+}
+
+.footer-bottom .container-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-bottom-links a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: var(--transition);
+}
+
+.footer-bottom-links a:hover {
+    color: var(--primary-light);
+}
+
+.payment-gateways {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+}
+
+.payment-gateways i {
+    transition: var(--transition);
+}
+
+.payment-gateways i:hover {
+    color: var(--white);
+}
+
+/*=========================================
+RESPONSIVE STYLES
+=========================================*/
+@media (max-width: 1199px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-top {
+        padding: 70px 0 40px;
+    }
+
+    .footer-bottom .container-custom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-bottom-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .payment-gateways {
+        justify-content: center;
+    }
+}

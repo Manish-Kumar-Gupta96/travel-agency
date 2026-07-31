@@ -1,0 +1,156 @@
+/*=========================================
+TRAVEL GIFT VOUCHER
+=========================================*/
+
+.voucher-hero{
+
+padding:140px 0;
+
+background:#0F172A;
+
+text-align:center;
+
+color:#FFFFFF;
+
+}
+
+.voucher-hero h1{
+
+font-size:58px;
+
+margin:20px 0;
+
+}
+
+.voucher-hero p{
+
+max-width:720px;
+
+margin:auto;
+
+line-height:1.8;
+
+color:#CBD5E1;
+
+}
+
+.voucher-grid{
+
+display:grid;
+
+grid-template-columns:1fr 420px;
+
+gap:35px;
+
+}
+
+.voucher-form-card,
+.voucher-preview-card{
+
+background:#FFFFFF;
+
+padding:35px;
+
+border-radius:24px;
+
+box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+}
+
+.voucher-form-card form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+.voucher-form-card input,
+.voucher-form-card select,
+.voucher-form-card textarea{
+
+padding:15px;
+
+border:1px solid #CBD5E1;
+
+border-radius:12px;
+
+outline:none;
+
+}
+
+.voucher-form-card textarea{
+
+height:130px;
+
+resize:none;
+
+}
+
+.voucher-preview{
+
+text-align:center;
+
+padding:40px 25px;
+
+background:linear-gradient(135deg,#0F172A,#1E293B);
+
+border-radius:20px;
+
+color:#FFFFFF;
+
+}
+
+.voucher-preview i{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+color:#FBBF24;
+
+}
+
+#previewAmount{
+
+margin:20px 0;
+
+font-size:48px;
+
+color:#FBBF24;
+
+}
+
+.voucher-actions{
+
+display:flex;
+
+gap:15px;
+
+margin-top:25px;
+
+flex-wrap:wrap;
+
+}
+
+@media(max-width:992px){
+
+.voucher-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.voucher-hero h1{
+
+font-size:40px;
+
+}
+
+}

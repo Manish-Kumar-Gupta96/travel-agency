@@ -1,0 +1,14 @@
+.tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 20px;
+}
+.tab-link {
+    padding: 12px 24px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+.tab-link.active {
+    border-bottom-color: var(--secondary);
+    color: var(--secondary);
+}

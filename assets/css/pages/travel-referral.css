@@ -1,0 +1,199 @@
+/*=========================================
+TRAVEL REFERRAL
+=========================================*/
+
+.referral-hero{
+
+padding:140px 0;
+
+background:#0F172A;
+
+text-align:center;
+
+color:#FFFFFF;
+
+}
+
+.referral-hero h1{
+
+font-size:58px;
+
+margin:20px 0;
+
+}
+
+.referral-hero p{
+
+max-width:720px;
+
+margin:auto;
+
+line-height:1.8;
+
+color:#CBD5E1;
+
+}
+
+.referral-grid{
+
+display:grid;
+
+grid-template-columns:1fr 380px;
+
+gap:35px;
+
+margin-bottom:40px;
+
+}
+
+.referral-card,
+.stats-card,
+.history-card{
+
+background:#FFFFFF;
+
+padding:35px;
+
+border-radius:22px;
+
+box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+}
+
+.code-box{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px;
+
+background:#F8FAFC;
+
+border-radius:14px;
+
+margin:25px 0;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+#referralCode{
+
+font-size:26px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+color:var(--primary);
+
+}
+
+.share-buttons{
+
+display:flex;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+}
+
+.stats-card ul{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+.stats-card li{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:18px 0;
+
+border-bottom:1px solid #E2E8F0;
+
+}
+
+.history-card table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin-top:20px;
+
+}
+
+.history-card th,
+.history-card td{
+
+padding:16px;
+
+border-bottom:1px solid #E2E8F0;
+
+text-align:left;
+
+}
+
+@media(max-width:992px){
+
+.referral-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.referral-hero h1{
+
+font-size:40px;
+
+}
+
+.code-box{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+}
+
+.history-card{
+
+overflow-x:auto;
+
+}
+
+}
+
+/*=========================================
+BUTTON PATCHES
+=========================================*/
+.referral-box .btn-primary {
+    min-width: auto;
+    height: 50px;
+    padding: 0 24px;
+    border-radius: 12px;
+    font-size: 15px;
+    background: var(--gradient-primary);
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

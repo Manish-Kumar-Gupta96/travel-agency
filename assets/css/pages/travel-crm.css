@@ -1,0 +1,190 @@
+/*=========================================
+TRAVEL CRM DASHBOARD
+=========================================*/
+
+.crm-hero{
+
+padding:140px 0;
+
+background:#0F172A;
+
+text-align:center;
+
+color:#FFFFFF;
+
+}
+
+.crm-hero h1{
+
+font-size:58px;
+
+margin:20px 0;
+
+}
+
+.crm-hero p{
+
+max-width:760px;
+
+margin:auto;
+
+line-height:1.8;
+
+color:#CBD5E1;
+
+}
+
+.crm-stats{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+gap:25px;
+
+margin-bottom:40px;
+
+}
+
+.crm-card{
+
+background:#FFFFFF;
+
+padding:35px;
+
+border-radius:22px;
+
+text-align:center;
+
+box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+transition:.3s;
+
+}
+
+.crm-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.crm-card i{
+
+font-size:40px;
+
+color:var(--primary);
+
+margin-bottom:20px;
+
+}
+
+.crm-grid{
+
+display:grid;
+
+grid-template-columns:360px 1fr;
+
+gap:30px;
+
+margin-bottom:30px;
+
+}
+
+.pipeline-card,
+.followup-card,
+.inquiry-card{
+
+background:#FFFFFF;
+
+padding:35px;
+
+border-radius:22px;
+
+box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+}
+
+.pipeline-card ul{
+
+list-style:none;
+
+padding:0;
+
+margin-top:20px;
+
+}
+
+.pipeline-card li{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:15px 0;
+
+border-bottom:1px solid #E2E8F0;
+
+}
+
+.followup-card table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin-top:20px;
+
+}
+
+.followup-card th,
+.followup-card td{
+
+padding:15px;
+
+text-align:left;
+
+border-bottom:1px solid #E2E8F0;
+
+}
+
+.inquiry-item{
+
+padding:18px 0;
+
+border-bottom:1px solid #E2E8F0;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.inquiry-item:hover{
+
+padding-left:10px;
+
+}
+
+@media(max-width:992px){
+
+.crm-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.crm-hero h1{
+
+font-size:40px;
+
+}
+
+
+.followup-card {
+    overflow-x: auto;
+}
+}

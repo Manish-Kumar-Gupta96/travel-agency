@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | TravelNest Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body style="background-color: var(--background); display: flex; align-items: center; justify-content: center; min-height: 100vh;">
+    <div class="card" style="max-width: 400px; width: 100%; padding: 40px; text-align: center;">
+        <h1 style="font-size: 28px; margin-bottom: 10px;">TravelNest Admin</h1>
+        <p style="color: var(--text-muted); margin-bottom: 30px;">Login to manage the workspace dashboard</p>
+        <form onsubmit="event.preventDefault(); location.href='dashboard.html'">
+            <div class="form-group" style="text-align: left;">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" placeholder="admin@travelnest.com" required>
+            </div>
+            <div class="form-group" style="text-align: left;">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" placeholder="••••••••" required>
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%; margin-top: 10px;">Login</button>
+        </form>
+    </div>
+</body>
+</html>

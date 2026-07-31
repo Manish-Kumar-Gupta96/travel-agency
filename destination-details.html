@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Details - TravelNest Premium Services</title>
+    <meta name="description" content="View private retreats, resort rankings, local maps, itineraries, and booking information for our featured luxury destinations.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+    HEADER / NAVIGATION
+    ========================================== -->
+    <header class="header-site header-scrolled" id="header-site">
+        <div class="container-custom">
+            <a href="index.html" class="logo-brand">
+                <i class="fa-solid fa-paper-plane"></i>
+                Travel<span>Nest</span>
+            </a>
+            <nav class="nav-menu-wrapper">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item">
+                        <a href="destinations.html" class="nav-link active">Destinations <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega-menu">
+                            <div class="mega-grid">
+                                <div class="mega-column">
+                                    <h5 class="mega-column-title">Asia Pacific</h5>
+                                    <ul class="mega-links">
+                                        <li><a href="destination-details.html?dest=bali"><i class="fa-solid fa-circle"></i> Bali, Indonesia</a></li>
+                                        <li><a href="destination-details.html?dest=maldives"><i class="fa-solid fa-circle"></i> Maldives Luxury</a></li>
+                                        <li><a href="destination-details.html?dest=thailand"><i class="fa-solid fa-circle"></i> Tropical Thailand</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h5 class="mega-column-title">Europe & Middle East</h5>
+                                    <ul class="mega-links">
+                                        <li><a href="destination-details.html?dest=switzerland"><i class="fa-solid fa-circle"></i> Swiss Alps</a></li>
+                                        <li><a href="destination-details.html?dest=dubai"><i class="fa-solid fa-circle"></i> Dubai Sky-rise</a></li>
+                                        <li><a href="destination-details.html?dest=india"><i class="fa-solid fa-circle"></i> Heritage India</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h5 class="mega-column-title">Special Packages</h5>
+                                    <ul class="mega-links">
+                                        <li><a href="packages.html?cat=honeymoon"><i class="fa-solid fa-circle"></i> Honeymoons</a></li>
+                                        <li><a href="packages.html?cat=adventure"><i class="fa-solid fa-circle"></i> Adventures</a></li>
+                                        <li><a href="packages.html?cat=luxury"><i class="fa-solid fa-circle"></i> Ultra Luxury</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Company <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega-menu" style="width: 800px; padding: 30px;">
+                            <div class="mega-grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                                <div class="mega-column">
+                                    <h5 class="mega-column-title">Company Info</h5>
+                                    <ul class="mega-links">
+                                        <li><a href="careers.html"><i class="fa-solid fa-briefcase"></i> Careers Portal</a></li>
+                                        <li><a href="press-media.html"><i class="fa-solid fa-newspaper"></i> Press & Media</a></li>
+                                        <li><a href="partners.html"><i class="fa-solid fa-handshake"></i> Travel Partners</a></li>
+                                        <li><a href="sustainability.html"><i class="fa-solid fa-leaf"></i> Sustainability</a></li>
+                                        <li><a href="franchise.html"><i class="fa-solid fa-store"></i> Own Franchise</a></li>
+                                        <li><a href="mobile-app.html"><i class="fa-solid fa-mobile-screen-button"></i> Mobile App</a></li>
+                                        <li><a href="developers.html"><i class="fa-solid fa-code"></i> Developer API</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h5 class="mega-column-title">Traveler Programs</h5>
+                                    <ul class="mega-links">
+                                        <li><a href="membership-plans.html"><i class="fa-solid fa-crown"></i> Membership Plans</a></li>
+                                        <li><a href="travel-rewards.html"><i class="fa-solid fa-star"></i> Travel Rewards</a></li>
+                                        <li><a href="travel-referral.html"><i class="fa-solid fa-share-nodes"></i> Referral Program</a></li>
+                                        <li><a href="gift-cards.html"><i class="fa-solid fa-gift"></i> Gift Cards</a></li>
+                                        <li><a href="photo-contest.html"><i class="fa-solid fa-camera"></i> Photo Contest</a></li>
+                                        <li><a href="community-forum.html"><i class="fa-solid fa-comments"></i> Travel Forum</a></li>
+                                        <li><a href="customer-account.html"><i class="fa-solid fa-user-gear"></i> My Account</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h5 class="mega-column-title">Portals & Safety</h5>
+                                    <ul class="mega-links">
+                                        <li><a href="travel-agent-portal.html"><i class="fa-solid fa-user-tie"></i> Agent Portal</a></li>
+                                        <li><a href="travel-crm.html"><i class="fa-solid fa-chart-line"></i> Travel CRM</a></li>
+                                        <li><a href="customer-crm.html"><i class="fa-solid fa-users-gear"></i> Customer CRM</a></li>
+                                        <li><a href="booking-management.html"><i class="fa-solid fa-calendar-check"></i> Booking Manage</a></li>
+                                        <li><a href="analytics-dashboard.html"><i class="fa-solid fa-chart-pie"></i> Analytics Panel</a></li>
+                                        <li><a href="admin-dashboard.html"><i class="fa-solid fa-user-shield"></i> Admin Panel</a></li>
+                                        <li><a href="emergency-assistance.html"><i class="fa-solid fa-circle-exclamation"></i> Emergency Info</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+
+                    
+
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="login.html" class="btn-header-login" style="margin-right: 15px; color: var(--text-dark); font-size: 18px;" title="My Account"><i class="fa-solid fa-user-circle"></i></a>
+                <a href="booking.html" class="btn-header-book">Book Now</a>
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+    SUBPAGE HERO BANNER
+    ========================================== -->
+    <section class="inner-hero" id="details-hero-banner" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80');">
+        <div class="inner-hero-overlay"></div>
+        <div class="container-custom">
+            <div class="inner-hero-content">
+                <h1 id="details-title">Maldives <span>Islands</span></h1>
+                <div class="breadcrumb-list">
+                    <a href="index.html">Home</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="destinations.html">Destinations</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span id="breadcrumb-current">Maldives</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+    DESTINATION DETAILS LAYOUT
+    ========================================== -->
+    <section class="section-padding bg-light">
+        <div class="container-custom">
+            <div class="destination-detail-layout">
+                
+                <!-- Left Column: Details & Information -->
+                <div data-aos="fade-right">
+                    <span class="section-subtitle" id="details-subtitle">Overview</span>
+                    <h2 class="mb-30" id="details-heading">Discover the Ultimate Premium Luxury Retreat</h2>
+                    <p class="text-secondary mb-30" id="details-description-p">The Maldives, a tropical nation in the Indian Ocean, is composed of 26 ring-shaped atolls, which are made up of more than 1,000 coral islands. It's known for its beaches, blue lagoons, and extensive reefs. Our packages cover stays in private water villas with personal slide chutes, dining experiences beneath the ocean levels, and chartered speedboat transfers.</p>
+                    
+                    <h4 class="mb-20">Key Highlights & Weather</h4>
+                    <div class="row mb-40 g-3">
+                        <div class="col-sm-4">
+                            <div class="glass-card p-20 text-center" style="background: var(--white); border-color: var(--slate-200);">
+                                <i class="fa-solid fa-temperature-half mb-10" style="font-size: 24px; color: var(--primary);"></i>
+                                <span class="d-block fw-700">Weather</span>
+                                <p class="fs-14" id="details-weather">28°C / 82°F Sunny</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="glass-card p-20 text-center" style="background: var(--white); border-color: var(--slate-200);">
+                                <i class="fa-solid fa-umbrella-beach mb-10" style="font-size: 24px; color: var(--primary);"></i>
+                                <span class="d-block fw-700">Best Season</span>
+                                <p class="fs-14" id="details-season">November - April</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="glass-card p-20 text-center" style="background: var(--white); border-color: var(--slate-200);">
+                                <i class="fa-solid fa-plane-arrival mb-10" style="font-size: 24px; color: var(--primary);"></i>
+                                <span class="d-block fw-700">Flight Time</span>
+                                <p class="fs-14" id="details-flight">Direct Charters</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="mb-20">Top Featured Five-Star Resorts</h4>
+                    <ul class="list-group mb-40" id="details-resorts" style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm);">
+                        <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                            <div>
+                                <h6 class="mb-1 fw-700">Soneva Jani Luxury Resort</h6>
+                                <p class="fs-13 text-secondary">Private slide water chalets, stargazing roof</p>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">5.0 ★</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                            <div>
+                                <h6 class="mb-1 fw-700">One & Only Reethi Rah</h6>
+                                <p class="fs-13 text-secondary">Exclusive infinity pool estates, gourmet chefs</p>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">4.9 ★</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                            <div>
+                                <h6 class="mb-1 fw-700">Waldorf Astoria Ithaafushi</h6>
+                                <p class="fs-13 text-secondary">Private sandbank dining, elite luxury yacht transfers</p>
+                            </div>
+                            <span class="badge bg-primary rounded-pill">4.9 ★</span>
+                        </li>
+                    </ul>
+
+                    <h4 class="mb-20">Luxury Image Gallery</h4>
+                    <div class="gallery-grid-inner" id="details-gallery-grid">
+                        <div class="gallery-img-item"><img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=300&q=80" alt="Resort 1"></div>
+                        <div class="gallery-img-item"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=300&q=80" alt="Resort 2"></div>
+                        <div class="gallery-img-item"><img src="https://images.unsplash.com/photo-1540206395-68808572332f?auto=format&fit=crop&w=300&q=80" alt="Resort 3"></div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Sticky Booking Card -->
+                <div data-aos="fade-left">
+                    <div class="detail-booking-sidebar">
+                        <div class="sidebar-price-header">
+                            <div>
+                                <span>Estimated Price</span>
+                                <h3 id="sidebar-price-tag">$2,499 <span>/ Person</span></h3>
+                            </div>
+                            <span class="badge bg-success text-white">All Inclusive</span>
+                        </div>
+
+                        <form class="contact-form-widget p-0 border-0 shadow-none" onsubmit="event.preventDefault(); alert('Your inquiry has been sent to our private concierge! We will contact you shortly.');">
+                            <div class="form-group">
+                                <label for="side-name">Your Full Name</label>
+                                <input type="text" id="side-name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="side-checkin">Check In Date</label>
+                                <input type="date" id="side-checkin" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="side-guests">Number of Guests</label>
+                                <select id="side-guests" onchange="calculatePrice();">
+                                    <option value="1">1 Guest</option>
+                                    <option value="2" selected>2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="side-notes">Special Requests (Private jet, dietary, etc.)</label>
+                                <textarea id="side-notes" placeholder="Please specify if private yacht transfers or jet charter coordinates are needed..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary w-100 mt-20" style="height: 56px;">Inquire Now</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+    PREMIUM DARK FOOTER
+    ========================================== -->
+    <footer class="footer-site">
+        <div class="footer-bottom" style="border: none;">
+            <div class="container-custom text-center">
+                <p>&copy; 2026 TravelNest. All Rights Reserved. Designed by Antigravity IDE.</p>
+                <div class="footer-bottom-links justify-content-center mt-3">
+                    <a href="index.html">Home</a> |
+                    <a href="destinations.html">Destinations</a> |
+                    <a href="packages.html">Tours</a> |
+                    <a href="faq.html">FAQ Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+    JAVASCRIPT LIBRARIES & PARSING LOGIC
+    ========================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, duration: 900 });
+
+        // Database of Destinations
+        const destinationData = {
+            maldives: {
+                title: "Maldives Islands",
+                breadcrumb: "Maldives",
+                subtitle: "Indian Ocean Luxury",
+                heading: "Tropical Floating Water Villas & Sea Adventures",
+                description: "The Maldives is a world-renowned archipelago known for private islands, luxury five-star villas built directly over lagoons, private coral reefs, and romantic underwater fine dining. Enjoy exclusive chartered transfers and scuba excursions under clear blue skies.",
+                weather: "28°C / 82°F Sunny",
+                season: "November - April",
+                flight: "Direct Charters",
+                basePrice: 2499,
+                resorts: [
+                    { name: "Soneva Jani Overwater Chalets", desc: "Private slides from villa deck to lagoon, retractable roof." },
+                    { name: "One & Only Reethi Rah Resorts", desc: "Secluded beachfront estate pool houses, Michelin-level meals." },
+                    { name: "Burj Waldorf Astoria Ithaafushi", desc: "Private islands, specialized sandbank dinner events." }
+                ],
+                bannerImg: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+                gallery: [
+                    "https://images.unsplash.com/photo-1540206395-68808572332f?auto=format&fit=crop&w=300&q=80",
+                    "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=300&q=80",
+                    "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=300&q=80"
+                ]
+            },
+            switzerland: {
+                title: "Swiss Alps Scenic",
+                breadcrumb: "Switzerland",
+                subtitle: "Luxury Alpine Escape",
+                heading: "Ski Chalets, Snowy Mountains & Train Journeys",
+                description: "Experience the winter wonderland of Zermatt, St. Moritz, and Interlaken. Stay in five-star mountain resorts, enjoy private ski guides, ride in VIP train suites (Glacier Express), and sample artisan Swiss chocolate under mountain peaks.",
+                weather: "12°C / 54°F Snowy",
+                season: "December - March",
+                flight: "Zurich Directs",
+                basePrice: 3850,
+                resorts: [
+                    { name: "The Chedi Andermatt Chalet", desc: "Luxury indoor heated pools overlooking mountain valleys." },
+                    { name: "Badrutt's Palace Hotel", desc: "Legendary five-star castle hotel in St. Moritz." },
+                    { name: "Zermatt Luxury Alpine Lodge", desc: "Direct views of the Matterhorn with private hot tubs." }
+                ],
+                bannerImg: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80",
+                gallery: [
+                    "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=300&q=80",
+                    "https://images.unsplash.com/photo-1483168527879-c66136b56105?auto=format&fit=crop&w=300&q=80",
+                    "https://images.unsplash.com/photo-1531210483974-4f8c1f33fd35?auto=format&fit=crop&w=300&q=80"
+                ]
+            },
+            bali: {
+                title: "Bali Tropical Bliss",
+                breadcrumb: "Bali",
+                subtitle: "Indonesian Sanctuary",
+                heading: "Ancient Shrines, Ocean Cliffs & Private Infinity Pools",
+                description: "Discover the spiritual hub of Ubud and beach clubs of Seminyak. Rent private cliffside villa states with full butler service, private cooks, direct beach entry, and custom cultural tour guides through monkey forests and temples.",
+                weather: "29°C / 84°F Humid",
+                season: "May - September",
+                flight: "Denpasar Charters",
+                basePrice: 1950,
+                resorts: [
+                    { name: "Four Seasons Ubud Sayan", desc: "Voted #1 world valley resort, set inside forest canopy." },
+                    { name: "Mandapa Ritz-Carlton Estate", desc: "Bespoke service alongside clean flowing jungle streams." },
+                    { name: "The Viceroy Bali Villas", desc: "Helicopter pad access, premium private infinity pool houses." }
+                ],
+                bannerImg: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1920&q=80",
+                gallery: [
+                    "https://images.unsplash.com/photo-1518548419070-ad8e040d25c6?auto=format&fit=crop&w=300&q=80",
+                    "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=300&q=80",
+                    "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=300&q=80"
+                ]
+            },
+            dubai: {
+                title: "Dubai Sky Luxury",
+                breadcrumb: "Dubai",
+                subtitle: "Emirates Oasis",
+                heading: "Modern Architecture, Yacht Cruises & Desert Dunes",
+                description: "Live the high life in Dubai. Stay in seven-star hotels, book private luxury yachts across Marina Bay, ride in helicopters above the Palm Jumeirah, and dine at private desert camps with traditional music and fire shows.",
+                weather: "34°C / 93°F Hot",
+                season: "October - April",
+                flight: "Direct First Class",
+                basePrice: 2200,
+                resorts: [
+                    { name: "Burj Al Arab Jumeirah", desc: "Iconic sail-shaped suite hotel, private chauffeur rolls-royce." },
+                    { name: "Atlantis The Royal", desc: "Newest skyline architectural masterpiece with sky pool lounges." },
+                    { name: "Armani Hotel Burj Khalifa", desc: "Minimalist elegant suites located inside the tallest tower." }
+                ],
+                bannerImg: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1920&q=80",
+                gallery: [
+                    "https://images.unsplash.com/photo-1526495124232-a04e1849168a?auto=format&fit=crop&w=300&q=80",
+                    "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=300&q=80",
+                    "https://images.unsplash.com/photo-1527030280862-64139fbe04ca?auto=format&fit=crop&w=300&q=80"
+                ]
+            }
+        };
+
+        // Render Page Data dynamically based on parameter
+        let basePrice = 2499;
+        
+        function loadDestinationDetails() {
+            const urlParams = new URLSearchParams(window.location.search);
+            let dest = urlParams.get('dest');
+            
+            // Check if valid destination exists, otherwise default to maldives
+            if (!dest || !destinationData[dest]) {
+                dest = 'maldives';
+            }
+            
+            const data = destinationData[dest];
+            basePrice = data.basePrice;
+            
+            // Set Text
+            document.getElementById("details-title").innerHTML = `${data.title.split(' ')[0]} <span>${data.title.split(' ').slice(1).join(' ')}</span>`;
+            document.getElementById("breadcrumb-current").innerText = data.breadcrumb;
+            document.getElementById("details-subtitle").innerText = data.subtitle;
+            document.getElementById("details-heading").innerText = data.heading;
+            document.getElementById("details-description-p").innerText = data.description;
+            document.getElementById("details-weather").innerText = data.weather;
+            document.getElementById("details-season").innerText = data.season;
+            document.getElementById("details-flight").innerText = data.flight;
+            
+            // Banner Background
+            document.getElementById("details-hero-banner").style.backgroundImage = `url('${data.bannerImg}')`;
+            
+            // Resorts
+            const resortContainer = document.getElementById("details-resorts");
+            resortContainer.innerHTML = '';
+            data.resorts.forEach((resort, idx) => {
+                const rating = idx === 0 ? "5.0 ★" : "4.9 ★";
+                resortContainer.innerHTML += `
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                        <div>
+                            <h6 class="mb-1 fw-700">${resort.name}</h6>
+                            <p class="fs-13 text-secondary">${resort.desc}</p>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">${rating}</span>
+                    </li>
+                `;
+            });
+            
+            // Gallery
+            const galleryContainer = document.getElementById("details-gallery-grid");
+            galleryContainer.innerHTML = '';
+            data.gallery.forEach(img => {
+                galleryContainer.innerHTML += `
+                    <div class="gallery-img-item"><img src="${img}" alt="Resort View" class="img-cover"></div>
+                `;
+            });
+            
+            // Recalculate price
+            calculatePrice();
+        }
+
+        function calculatePrice() {
+            const guestCount = +document.getElementById("side-guests").value;
+            const totalPrice = basePrice * guestCount;
+            document.getElementById("sidebar-price-tag").innerHTML = `$${totalPrice.toLocaleString()} <span>/ Total for ${guestCount} Guest(s)</span>`;
+        }
+
+        // Initialize on load
+        window.onload = loadDestinationDetails;
+    </script>
+    <script src="assets/js/core/app.js"></script>
+</body>
+</html>

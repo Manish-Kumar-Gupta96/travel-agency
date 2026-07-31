@@ -1,0 +1,432 @@
+/*=========================================
+TRAVEL GIFT CARDS
+=========================================*/
+
+
+.gift-hero{
+
+padding:140px 0;
+
+background:#0F172A;
+
+color:#FFFFFF;
+
+text-align:center;
+
+}
+
+
+.gift-hero h1{
+
+font-size:58px;
+
+margin:20px 0;
+
+}
+
+
+.gift-hero p{
+
+max-width:780px;
+
+margin:auto;
+
+line-height:1.8;
+
+color:#CBD5E1;
+
+}
+
+
+
+
+/*=========================================
+CATEGORY CARDS
+=========================================*/
+
+
+.gift-category-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+margin-bottom:45px;
+
+}
+
+
+
+.gift-card-box{
+
+background:#FFFFFF;
+
+padding:35px;
+
+border-radius:24px;
+
+text-align:center;
+
+box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+transition:.3s ease;
+
+}
+
+
+
+.gift-card-box:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+
+.gift-card-box i{
+
+font-size:45px;
+
+color:var(--primary);
+
+margin-bottom:20px;
+
+}
+
+
+
+.gift-card-box h3{
+
+font-size:24px;
+
+margin-bottom:15px;
+
+}
+
+
+
+.gift-card-box p{
+
+color:#64748B;
+
+line-height:1.7;
+
+margin-bottom:25px;
+
+}
+
+
+
+
+/*=========================================
+GIFT DASHBOARD
+=========================================*/
+
+
+.gift-dashboard{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:30px;
+
+margin-bottom:35px;
+
+}
+
+
+
+.preview-card,
+.purchase-card,
+.balance-card,
+.orders-card{
+
+background:#FFFFFF;
+
+padding:35px;
+
+border-radius:24px;
+
+box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+}
+
+
+
+.gift-preview{
+
+margin-top:25px;
+
+padding:40px 25px;
+
+border-radius:20px;
+
+background:#F8FAFC;
+
+text-align:center;
+
+}
+
+
+
+.gift-logo{
+
+font-size:28px;
+
+font-weight:700;
+
+margin-bottom:30px;
+
+}
+
+
+
+.gift-preview h3{
+
+font-size:30px;
+
+margin-bottom:15px;
+
+}
+
+
+
+.gift-preview p{
+
+font-size:22px;
+
+font-weight:600;
+
+}
+
+
+
+.gift-preview span{
+
+display:inline-block;
+
+margin-top:20px;
+
+padding:10px 20px;
+
+border-radius:50px;
+
+background:#FFFFFF;
+
+}
+
+
+
+
+
+/*=========================================
+PURCHASE FORM
+=========================================*/
+
+
+.purchase-card form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+
+
+.purchase-card input,
+.purchase-card select,
+.purchase-card textarea{
+
+padding:15px;
+
+border:1px solid #CBD5E1;
+
+border-radius:12px;
+
+outline:none;
+
+font-size:15px;
+
+}
+
+
+
+.purchase-card textarea{
+
+height:130px;
+
+resize:none;
+
+}
+
+
+
+
+/*=========================================
+BALANCE CHECKER
+=========================================*/
+
+
+.balance-card{
+
+margin-bottom:35px;
+
+text-align:center;
+
+}
+
+
+
+.balance-form{
+
+display:flex;
+
+gap:15px;
+
+margin-top:25px;
+
+}
+
+
+
+.balance-form input{
+
+flex:1;
+
+padding:15px;
+
+border:1px solid #CBD5E1;
+
+border-radius:12px;
+
+outline:none;
+
+}
+
+
+
+
+
+/*=========================================
+ORDERS TABLE
+=========================================*/
+
+
+.orders-card table{
+
+width:100%;
+
+border-collapse:collapse;
+
+margin-top:25px;
+
+}
+
+
+
+.orders-card th,
+.orders-card td{
+
+padding:16px;
+
+text-align:left;
+
+border-bottom:1px solid #E2E8F0;
+
+}
+
+
+
+.orders-card th{
+
+font-weight:700;
+
+}
+
+
+
+
+
+/*=========================================
+RESPONSIVE
+=========================================*/
+
+
+@media(max-width:992px){
+
+
+.gift-dashboard{
+
+grid-template-columns:1fr;
+
+}
+
+
+}
+
+
+
+@media(max-width:768px){
+
+
+.gift-hero h1{
+
+font-size:40px;
+
+}
+
+
+
+.balance-form{
+
+flex-direction:column;
+
+}
+
+
+
+.orders-card{
+
+overflow-x:auto;
+
+}
+
+
+
+}
+
+/*=========================================
+BUTTON PATCHES
+=========================================*/
+.purchase-card .btn-primary,
+.gift-card-box .btn-primary {
+    min-width: auto;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    border-radius: 12px;
+    font-size: 15px;
+    background: var(--gradient-primary);
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.balance-form .btn-secondary {
+    min-width: auto;
+    height: 50px;
+    padding: 0 24px;
+    border-radius: 12px;
+    font-size: 15px;
+    background: var(--primary-dark);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
