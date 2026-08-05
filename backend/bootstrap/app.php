@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+if (!defined('BASE_PATH')) {
+    define('BASE_PATH', dirname(__DIR__));
+}
+
 use App\Container\Application;
 use App\Container\Container;
 use App\Exceptions\ExceptionHandler;
