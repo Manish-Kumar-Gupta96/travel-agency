@@ -1,0 +1,17 @@
+# Dependencies
+vendor/
+composer.phar
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.staging
+.env.development
+.env.local
+
+# Cache and Logs
+.phpunit.result.cache
+*.log
+storage/logs/*.log
+bootstrap/cache/*.php

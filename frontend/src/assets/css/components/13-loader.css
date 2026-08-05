@@ -1,0 +1,52 @@
+.app-loader{
+
+    width:100%;
+
+    min-height:300px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+
+.loader-spinner{
+
+    width:45px;
+
+    height:45px;
+
+    border:4px solid var(--gray-200);
+
+    border-top-color:var(--primary-500);
+
+    border-radius:50%;
+
+    animation:spin 1s linear infinite;
+
+}
+
+
+
+@keyframes spin{
+
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+
+}

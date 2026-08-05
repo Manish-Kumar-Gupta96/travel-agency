@@ -1,0 +1,49 @@
+.tooltip{
+
+    position:relative;
+
+    cursor:pointer;
+
+}
+
+
+
+.tooltip-text{
+
+    position:absolute;
+
+    bottom:calc(100% + 8px);
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:var(--gray-900);
+
+    color:var(--white);
+
+    padding:6px 10px;
+
+    border-radius:var(--radius-sm);
+
+    font-size:12px;
+
+    white-space:nowrap;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:var(--transition-fast);
+
+}
+
+
+
+.tooltip:hover .tooltip-text{
+
+    opacity:1;
+
+    visibility:visible;
+
+}

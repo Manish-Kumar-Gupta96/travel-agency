@@ -1,0 +1,93 @@
+@media(max-width:1400px){
+
+
+    .container{
+
+        max-width:1200px;
+
+    }
+
+
+}
+
+
+
+@media(max-width:1200px){
+
+
+    h1{
+
+        font-size:2.5rem;
+
+    }
+
+
+}
+
+
+
+@media(max-width:992px){
+
+
+    .hide-tablet{
+
+        display:none;
+
+    }
+
+
+
+    .page-content{
+
+        padding:20px;
+
+    }
+
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    h1{
+
+        font-size:2rem;
+
+    }
+
+
+
+    .hide-mobile{
+
+        display:none;
+
+    }
+
+
+
+    .d-mobile-block{
+
+        display:block;
+
+    }
+
+
+}
+
+
+
+@media(max-width:576px){
+
+
+    .container{
+
+        padding-left:15px;
+
+        padding-right:15px;
+
+    }
+
+
+}

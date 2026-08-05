@@ -1,0 +1,77 @@
+.website-header{
+
+    height:75px;
+
+    background:var(--white);
+
+    border-bottom:1px solid var(--gray-200);
+
+}
+
+
+
+.header-inner{
+
+    height:100%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+
+
+.website-logo{
+
+    font-size:24px;
+
+    font-weight:800;
+
+    color:var(--primary-500);
+
+}
+
+
+
+.website-nav{
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+
+
+.website-nav a{
+
+    color:var(--gray-700);
+
+    font-weight:500;
+
+}
+
+
+
+.website-nav a.active{
+
+    color:var(--primary-500);
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    .website-nav{
+
+        display:none;
+
+    }
+
+
+}

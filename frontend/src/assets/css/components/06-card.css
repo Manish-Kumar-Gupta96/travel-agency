@@ -1,0 +1,43 @@
+.card{
+
+    background:var(--white);
+
+    border-radius:var(--radius-lg);
+
+    box-shadow:var(--shadow-md);
+
+    padding:20px;
+
+}
+
+
+
+.card-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.card-title{
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+
+
+.card-body{
+
+    color:var(--gray-600);
+
+}

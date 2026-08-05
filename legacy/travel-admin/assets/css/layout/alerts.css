@@ -1,6 +1,0 @@
-.alert {
-    padding: 16px;
-    border-radius: var(--radius-sm);
-    margin-bottom: 20px;
-}
-.alert-success { background-color: #DCFCE7; color: #15803D; }

@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after{
+
+    box-sizing:border-box;
+
+}
+
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+
+body{
+
+    margin:0;
+
+    font-family:var(--font-primary);
+
+    background:#f8fafc;
+
+    color:var(--gray-900);
+
+}
+
+
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+
+button,
+input,
+textarea,
+select{
+
+    font:inherit;
+
+}
+
+
+
+ul,
+ol{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}

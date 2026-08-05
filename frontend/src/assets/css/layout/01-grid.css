@@ -1,0 +1,69 @@
+.row{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    margin-left:-12px;
+
+    margin-right:-12px;
+
+}
+
+
+
+[class*="col-"]{
+
+    padding-left:12px;
+
+    padding-right:12px;
+
+}
+
+
+
+.col-12{
+
+    width:100%;
+
+}
+
+
+
+.col-6{
+
+    width:50%;
+
+}
+
+
+
+.col-4{
+
+    width:33.333%;
+
+}
+
+
+
+.col-3{
+
+    width:25%;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    .col-6,
+    .col-4,
+    .col-3{
+
+        width:100%;
+
+    }
+
+
+}
