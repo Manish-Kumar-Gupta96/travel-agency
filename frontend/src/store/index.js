@@ -1,27 +1,37 @@
-import {
-    configureStore
-} from "@reduxjs/toolkit";
+import { configureStore, createSlice } from "@reduxjs/toolkit";
 
-
-const store = configureStore({
-
-    reducer: {
-
-
+// Simple auth slice for initial setup and state management
+const authSlice = createSlice({
+    name: "auth",
+    initialState: {
+        user: null,
+        isAuthenticated: false,
+        token: null
     },
-
-
-    middleware:(getDefaultMiddleware)=>
-
-        getDefaultMiddleware({
-
-            serializableCheck:false
-
-        })
-
-
-
+    reducers: {
+        setCredentials(state, action) {
+            state.user = action.payload.user;
+            state.token = action.payload.token;
+            state.isAuthenticated = true;
+        },
+        clearCredentials(state) {
+            state.user = null;
+            state.token = null;
+            state.isAuthenticated = false;
+        }
+    }
 });
 
+export const { setCredentials, clearCredentials } = authSlice.actions;
+
+const store = configureStore({
+    reducer: {
+        auth: authSlice.reducer
+    },
+    middleware: (getDefaultMiddleware) =>
+        getDefaultMiddleware({
+            serializableCheck: false
+        })
+});
 
 export default store;
