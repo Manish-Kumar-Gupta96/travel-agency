@@ -1,3 +1,7 @@
 name = "travel-agency-app"
 compatibility_date = "2026-09-17"
-assets = { directory = "./dist" }
+
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
+html_handling = "auto-trailing-slash"
