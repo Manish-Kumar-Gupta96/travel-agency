@@ -1,0 +1,3 @@
+name = "travel-agency-app"
+compatibility_date = "2026-09-17"
+assets = { directory = "./dist" }
