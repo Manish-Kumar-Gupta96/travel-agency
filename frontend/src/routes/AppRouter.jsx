@@ -7,7 +7,13 @@ import AuthLayout from "@/layouts/AuthLayout";
 // Website Pages
 import Home from "@/pages/website/Home";
 import PublicPackages from "@/pages/website/Packages";
+import PackageDetail from "@/pages/website/PackageDetail";
 import PublicDestinations from "@/pages/website/Destinations";
+import Hotels from "@/pages/website/Hotels";
+import Flights from "@/pages/website/Flights";
+import Deals from "@/pages/website/Deals";
+import Reviews from "@/pages/website/Reviews";
+import Faq from "@/pages/website/Faq";
 import PublicAbout from "@/pages/website/About";
 import PublicContact from "@/pages/website/Contact";
 
@@ -31,7 +37,13 @@ function AppRouter() {
             <Route element={<WebsiteLayout />}>
                 <Route path="/" element={<Home />} />
                 <Route path="/packages" element={<PublicPackages />} />
+                <Route path="/packages/:id" element={<PackageDetail />} />
                 <Route path="/destinations" element={<PublicDestinations />} />
+                <Route path="/hotels" element={<Hotels />} />
+                <Route path="/flights" element={<Flights />} />
+                <Route path="/deals" element={<Deals />} />
+                <Route path="/reviews" element={<Reviews />} />
+                <Route path="/faq" element={<Faq />} />
                 <Route path="/about" element={<PublicAbout />} />
                 <Route path="/contact" element={<PublicContact />} />
             </Route>
