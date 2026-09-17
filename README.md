@@ -35,15 +35,15 @@
 
 ---
 
-## ✨ Features & Highlights
-
 - **📊 Enterprise Travel ERP Dashboard:** Interactive analytics, booking metrics, and revenue charts powered by ApexCharts.
-- **🗺️ Tour & Itinerary Management:** Comprehensive booking management, flight schedules, and travel package configurations.
+- **🗺️ Tour & Itinerary Management:** Day-by-Day timeline itinerary explorer with dynamic guest & price estimation.
+- **🏨 Luxury Hotels & Boutique Resorts:** Dedicated hotel directory with amenities filtering (WiFi, Pool, Spa) and room reservation modal.
+- **✈️ International Flight Search:** Real-time flight schedule engine with airline cards, baggage allowance, and cabin class filters.
+- **🎁 Flash Sales & Special Deals:** Live countdown timers, promo code copy vouchers, and early-bird discounts.
+- **🧮 Interactive Trip Budget Calculator:** Dynamic slider widget to simulate total estimated holiday expenses based on travel style.
+- **⭐ Verified Reviews & Help Center:** Traveler scorecard breakdown, filterable testimonials, and categorized searchable FAQ accordion.
 - **⚡ Reactive State & Caching:** Redux Toolkit + TanStack Query for optimal state management and real-time synchronization.
-- **💫 Fluid Transitions & UI:** Framer Motion animations with a sleek modern design language.
-- **📱 100% Fully Responsive:** Flawless cross-device experience across desktop, tablet, and mobile.
-- **🌍 Internationalization (i18n):** Multi-language and multi-currency support ready.
-- **🛡️ Secure Auth & JWT:** Token-based authentication and role-based permissions workflow.
+- **💫 Fluid Transitions & UI:** Framer Motion animations with a sleek, modern responsive design language.
 
 ---
 
